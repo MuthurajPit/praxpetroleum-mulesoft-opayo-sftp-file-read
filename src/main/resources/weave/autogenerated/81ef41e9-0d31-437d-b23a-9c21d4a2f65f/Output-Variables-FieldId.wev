@@ -1,0 +1,4 @@
+%dw 2.0
+
+type auto_81ef41e9_0d31_437d_b23a_9c21d4a2f65f_Output_Variables_FieldId = Array<{| test?: Number |}>
+

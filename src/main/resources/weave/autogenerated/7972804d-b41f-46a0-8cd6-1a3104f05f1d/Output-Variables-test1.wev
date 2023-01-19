@@ -1,0 +1,4 @@
+%dw 2.0
+
+type auto_7972804d_b41f_46a0_8cd6_1a3104f05f1d_Output_Variables_test1 = {| test?: Number |}
+
