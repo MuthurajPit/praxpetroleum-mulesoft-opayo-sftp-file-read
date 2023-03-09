@@ -30,7 +30,7 @@ segments:
   - { name: 'BatchNumber', type: String, length: 6 }
   - { name: 'TransactionDate', type: String, length: 9 }
   - { name: 'TransactionTime', type: String, length: 5 }
-  - { name: 'MerchantName', type: String, length: 19 }
+  - { name: 'MerchantName', type: String, length: 23 }
 - id: 'MessageClass4'
   name: "Transaction Detail Record for MessageClass4"
   values:
@@ -59,12 +59,18 @@ segments:
   - { name: 'ShiftMark', type: Integer, length: 1 }
   - { name: 'TransactionNumber', type: String, length: 4 }
   - { name: 'AuxiliaryMesasgeNumber', type: String, length: 2 }
-  - { name: 'ProductInformation1', type: String, length: 12 }
-  - { name: 'ProductCode', type: String, length: 2 }
-  - { name: 'ProductValue', type: String, length: 5 }
-  - { name: 'ProductQuantity', type: String, length: 5 }
-  - { name: 'ProductInformation2', type: String, length: 12 }
-  - { name: 'ProductInformation3', type: String, length: 12 }
+  - { name: 'ProductCode1', type: Integer, length: 2 }
+  - { name: 'ProductValue1', type: String, length: 5 }
+  - { name: 'ProductQuantity1', type: String, length: 5 }
+  - { name: 'ProductCode2', type: Integer, length: 2 }
+  - { name: 'ProductValue2', type: String, length: 5 }
+  - { name: 'ProductQuantity2', type: String, length: 5 }
+  - { name: 'ProductCode3', type: Integer, length: 2 }
+  - { name: 'ProductValue3', type: String, length: 5 }
+  - { name: 'ProductQuantity3', type: String, length: 5 }
+  - { name: 'ProductCode4', type: Integer, length: 2 }
+  - { name: 'ProductValue4', type: String, length: 5 }
+  - { name: 'ProductQuantity4', type: String, length: 5 }
 - id: 'MessageClass3'
   name: "Transaction Detail Record for MessageClass3"
   values:
@@ -87,7 +93,7 @@ segments:
   - { name: 'BatchNumber', type: String, length: 6 }
   - { name: 'TransactionDate', type: String, length: 9 }
   - { name: 'TransactionTime', type: String, length: 5 }
-  - { name: 'MerchantName', type: String, length: 19 }
+  - { name: 'MerchantName', type: String, length: 23 }
 - id: 'FileTrailer'
   name: "Request File Footer Record"
   values:
